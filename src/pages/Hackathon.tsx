@@ -2,28 +2,22 @@ import { Card } from "@/components/Card"
 
 const hackathons = [
   {
-    image: "https://picsum.photos/400/300",
-    title: "AIチャットボット開発ハッカソン",
-    startDate: "2024-01-15",
-    endDate: "2024-01-17",
+    image: "https://cdn.discordapp.com/attachments/1365540095813353532/1365675867388383345/top_page_sample.jpg?ex=68439103&is=68423f83&hm=35d1899545251f12075dc6389bebc3f73293b2d901b58f70c01b3100a22def56&",
+    title: "WakeUp!ハッカソン 〜眠る空き家を起こせ！〜",
+    startDate: "2025-04-26",
+    endDate: "2025-04-29",
     teamSize: 4,
-    githubUrl: "https://github.com/example/ai-chatbot"
+    githubUrl: "https://github.com/wakeup-B/destroy-akiya",
+    techs: ["Swift", "Unity", "Blender", "AR Kit"]
   },
   {
-    image: "https://picsum.photos/400/301",
-    title: "Web3.0アプリケーション開発ハッカソン",
-    startDate: "2023-12-01",
-    endDate: "2023-12-03",
-    teamSize: 3,
-    githubUrl: "https://github.com/example/web3-app"
-  },
-  {
-    image: "https://picsum.photos/400/302",
-    title: "モバイルアプリ開発ハッカソン",
-    startDate: "2023-10-20",
-    endDate: "2023-10-22",
+    image: "",
+    title: "登竜門Hack 2025",
+    startDate: "2025-5-31",
+    endDate: "2025-6-15",
     teamSize: 5,
-    githubUrl: "https://github.com/example/mobile-app"
+    githubUrl: "https://github.com/orgs/toryumon-pj/teams/hack-kansai-2025-teamf",
+    techs: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
   }
 ]
 
@@ -42,6 +36,7 @@ export function Hackathon() {
             endDate={hackathon.endDate}
             teamSize={hackathon.teamSize}
             githubUrl={hackathon.githubUrl}
+            techs={hackathon.techs}
           />
         ))}
       </div>

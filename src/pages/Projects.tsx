@@ -4,27 +4,12 @@ const projects = [
   {
     image: "https://picsum.photos/400/303",
     title: "ポートフォリオサイト",
-    startDate: "2024-02-01",
+    startDate: "2025-06-01",
     endDate: "現在進行中",
     teamSize: 1,
-    githubUrl: "https://github.com/example/portfolio"
+    githubUrl: "https://github.com/example/portfolio",
+    techs: ["React", "Next.js", "Tailwind CSS", "TypeScript"]
   },
-  {
-    image: "https://picsum.photos/400/304",
-    title: "タスク管理アプリ",
-    startDate: "2023-11-01",
-    endDate: "2024-01-31",
-    teamSize: 2,
-    githubUrl: "https://github.com/example/task-manager"
-  },
-  {
-    image: "https://picsum.photos/400/305",
-    title: "ブログシステム",
-    startDate: "2023-09-01",
-    endDate: "2023-10-31",
-    teamSize: 1,
-    githubUrl: "https://github.com/example/blog-system"
-  }
 ]
 
 export function Projects() {
@@ -42,6 +27,7 @@ export function Projects() {
             endDate={project.endDate}
             teamSize={project.teamSize}
             githubUrl={project.githubUrl}
+            techs={project.techs}
           />
         ))}
       </div>
