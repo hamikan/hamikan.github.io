@@ -5,12 +5,13 @@ interface CardProps {
   endDate: string
   teamSize: number
   githubUrl: string
+  techs: string[]
 }
 
-export function Card({ image, title, startDate, endDate, teamSize, githubUrl }: CardProps) {
+export function Card({ image, title, startDate, endDate, teamSize, githubUrl, techs }: CardProps) {
   return (
     <div className="w-full max-w-sm overflow-hidden rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800">
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
+      <img src={image} alt={title} className="object-contain object-center w-full h-48" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">{title}</h3>
         <div className="space-y-2 text-gray-700 dark:text-gray-300">
@@ -24,6 +25,7 @@ export function Card({ image, title, startDate, endDate, teamSize, githubUrl }: 
           >
             GitHubリポジトリ
           </a>
+          <p>技術スタック: {techs.join(", ")}</p>
         </div>
       </div>
     </div>
