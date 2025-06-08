@@ -6,9 +6,8 @@ import { App } from './App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {/* <Layout>
+    <Layout>
       {<App />}
-    </Layout> */}
-    <App />
+    </Layout>
   </StrictMode>,
 )
