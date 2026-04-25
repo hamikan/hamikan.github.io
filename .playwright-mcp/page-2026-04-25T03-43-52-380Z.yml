@@ -1,0 +1,124 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - 'button "H hamikan github : hamikan"':
+          - generic: H
+          - generic:
+            - generic: hamikan
+            - generic: "github : hamikan"
+    - generic [ref=e11]:
+      - generic [ref=e12]: Navigation
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e17]
+            - generic [ref=e20]: Home
+        - listitem [ref=e21]:
+          - link "About me" [ref=e22] [cursor=pointer]:
+            - /url: /about-me
+            - img [ref=e23]
+            - generic [ref=e27]: About me
+        - listitem [ref=e28]:
+          - link "Hackathon" [ref=e29] [cursor=pointer]:
+            - /url: /hackathon
+            - img [ref=e30]
+            - generic [ref=e36]: Hackathon
+        - listitem [ref=e37]:
+          - link "Projects" [ref=e38] [cursor=pointer]:
+            - /url: /projects
+            - img [ref=e39]
+            - generic [ref=e42]: Projects
+        - listitem [ref=e43]:
+          - link "Others" [ref=e44] [cursor=pointer]:
+            - /url: /others
+            - img [ref=e45]
+            - generic [ref=e47]: Others
+        - listitem [ref=e48]:
+          - link "History" [ref=e49] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e50]
+            - generic [ref=e54]: History
+    - paragraph [ref=e56]: Building, learning, shipping.
+  - main [ref=e57]:
+    - generic [ref=e58]:
+      - button "Toggle Sidebar" [ref=e60]:
+        - img
+        - generic [ref=e61]: Toggle Sidebar
+      - generic [ref=e62]:
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: Hamikan Portfolio
+            - heading "つくって、試して、学び続けるエンジニア。" [level=1] [ref=e67]
+            - paragraph [ref=e68]: 近畿大学情報学部で学びながら、競技プログラミング、チーム開発、 個人開発に取り組んでいます。作る力と続ける力を磨いています。
+            - generic [ref=e69]:
+              - link "Projects" [ref=e70] [cursor=pointer]:
+                - /url: /projects
+                - text: Projects
+                - img [ref=e71]
+              - link "GitHub" [ref=e73] [cursor=pointer]:
+                - /url: https://github.com/hamikan
+                - img [ref=e74]
+                - text: GitHub
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - img [ref=e79]
+                - paragraph [ref=e83]: "4"
+                - paragraph [ref=e84]: Projects
+              - generic [ref=e85]:
+                - img [ref=e86]
+                - paragraph [ref=e92]: 4+
+                - paragraph [ref=e93]: Hackathons
+              - generic [ref=e94]:
+                - img [ref=e95]
+                - paragraph [ref=e99]: 水色
+                - paragraph [ref=e100]: AtCoder
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - paragraph [ref=e109]: Current Stack
+              - generic [ref=e110]:
+                - generic [ref=e111]: React
+                - generic [ref=e112]: TypeScript
+                - generic [ref=e113]: Tailwind CSS
+                - generic [ref=e114]: Next.js
+                - generic [ref=e115]: Unity
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - paragraph [ref=e118]: Latest
+                - paragraph [ref=e119]: WakeUp! ハッカソン
+                - paragraph [ref=e120]: 眠る空き家を起こすことをテーマに、ARとゲーム表現を組み合わせた体験をチームで制作しました。
+              - generic [ref=e121]:
+                - paragraph [ref=e122]: Mode
+                - paragraph [ref=e123]: Ship
+                - paragraph [ref=e124]: アイデアを動く形にする
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - paragraph [ref=e128]: Strengths
+            - heading "特に力を入れてきたこと" [level=2] [ref=e129]
+            - paragraph [ref=e130]: 継続して伸ばした基礎力、チームで形にする経験、自分で作り切る挑戦を軸に活動しています。
+          - generic [ref=e131]:
+            - article [ref=e132]:
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - paragraph [ref=e135]: AtCoder / ICPC
+                  - heading "競技プログラミング" [level=3] [ref=e136]
+                - img [ref=e138]
+              - paragraph [ref=e144]: AtCoder 水色
+              - paragraph [ref=e145]: 1年半でAtCoder水色に到達。大学内で競プロコミュニティを立ち上げ、近畿大学の競プロ文化づくりにも取り組んでいます。
+            - article [ref=e146]:
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - paragraph [ref=e149]: Hackathon / Internship
+                  - heading "チーム開発" [level=3] [ref=e150]
+                - img [ref=e152]
+              - paragraph [ref=e156]: ハッカソン 4回
+              - paragraph [ref=e157]: 2回生からハッカソンに複数回参加。Web開発、Unity、Git/GitHub、チームでの開発プロセスを実践で学びました。
+            - article [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - paragraph [ref=e161]: Learning Product
+                  - heading "個人開発" [level=3] [ref=e162]
+                - img [ref=e164]
+              - paragraph [ref=e168]: 競プロ学習記録
+              - paragraph [ref=e169]: 自分1人でどこまで作れるかを知るため、競プロの学習記録サイトを開発中。調べて作り、改善する力を磨いています。

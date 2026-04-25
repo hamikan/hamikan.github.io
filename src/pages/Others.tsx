@@ -1,17 +1,31 @@
+import { Card } from "@/components/Card"
+import { others } from "@/data/others"
+
 export function Others() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8">Others</h1>
-      
-      <div className="max-w-2xl">
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">今後の予定</h2>
-          <p className="text-lg">
-            今後、このセクションに追加予定のコンテンツが表示されます。
-            技術ブログや趣味の活動など、様々な情報を更新していく予定です。
-          </p>
-        </section>
+    <div className="mx-auto min-h-screen max-w-7xl px-6 py-24 lg:px-10">
+      <div className="mb-10 max-w-3xl">
+        <p className="text-sm font-bold uppercase tracking-[0.24em] text-teal-700">In Progress</p>
+        <h1 className="mt-4 text-4xl font-black text-slate-950 md:text-6xl">Others</h1>
+        <p className="mt-5 text-lg leading-8 text-slate-600">
+          これから追加していくコンテンツの一覧です。活動の過程や学習ログも見えるポートフォリオに広げていくための、準備中のページをまとめています。
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {others.map((item) => (
+          <Card
+            key={item.title}
+            image={item.image}
+            title={item.title}
+            summary={item.summary}
+            startDate={item.startDate}
+            endDate={item.endDate}
+            teamSize={item.teamSize}
+            techs={item.techs}
+          />
+        ))}
       </div>
     </div>
   )
-} 
+}
