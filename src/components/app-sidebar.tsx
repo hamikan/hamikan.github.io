@@ -47,7 +47,7 @@ export function AppSidebar() {
 
   return (
     <Sidebar className="border-slate-200 bg-white [&_[data-sidebar=sidebar]]:bg-white">
-      <SidebarHeader className="px-4 py-5 group-data-[collapsible=icon]:py-2">
+      <SidebarHeader className="px-4 py-5 group-data-[collapsible=icon]:py-5">
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton
