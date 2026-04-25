@@ -1,0 +1,178 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - 'button "H hamikan github : hamikan"':
+          - generic: H
+          - generic:
+            - generic: hamikan
+            - generic: "github : hamikan"
+    - generic [ref=e11]:
+      - generic [ref=e12]: Navigation
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e17]
+            - generic [ref=e20]: Home
+        - listitem [ref=e21]:
+          - link "About me" [ref=e22] [cursor=pointer]:
+            - /url: /about-me
+            - img [ref=e23]
+            - generic [ref=e27]: About me
+        - listitem [ref=e28]:
+          - link "Hackathon" [ref=e29] [cursor=pointer]:
+            - /url: /hackathon
+            - img [ref=e30]
+            - generic [ref=e36]: Hackathon
+        - listitem [ref=e37]:
+          - link "Projects" [ref=e38] [cursor=pointer]:
+            - /url: /projects
+            - img [ref=e39]
+            - generic [ref=e42]: Projects
+        - listitem [ref=e43]:
+          - link "Others" [ref=e44] [cursor=pointer]:
+            - /url: /others
+            - img [ref=e45]
+            - generic [ref=e47]: Others
+        - listitem [ref=e48]:
+          - link "History" [ref=e49] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e50]
+            - generic [ref=e54]: History
+  - main [ref=e55]:
+    - generic [ref=e56]:
+      - button "Toggle Sidebar" [ref=e58]:
+        - img
+        - generic [ref=e59]: Toggle Sidebar
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - paragraph [ref=e62]: In Progress
+          - heading "Others" [level=1] [ref=e63]
+          - paragraph [ref=e64]: これから追加していくコンテンツの一覧です。活動の過程や学習ログも見えるポートフォリオに広げていくための、準備中のページをまとめています。
+        - generic [ref=e65]:
+          - article [ref=e66]:
+            - generic [ref=e67]:
+              - img "競プロやろうよ (KDIX Lab)" [ref=e69]
+              - generic [ref=e71]:
+                - generic [ref=e72]:
+                  - heading "競プロやろうよ (KDIX Lab)" [level=3] [ref=e73]
+                  - paragraph [ref=e74]: 競技プログラミングの学習とアウトプットを進めるラボ活動。学内コンテストも開催し、参加者が競プロに触れる場を作っています。
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - img [ref=e77]
+                    - generic [ref=e79]: 2025-06-09 - 現在進行中
+                  - generic [ref=e80]:
+                    - img [ref=e81]
+                    - generic [ref=e86]: 約30人
+                - generic [ref=e88]:
+                  - generic [ref=e89]: C++
+                  - generic [ref=e90]: Python
+                  - generic [ref=e91]: Java
+          - article [ref=e92]:
+            - generic [ref=e93]:
+              - img "AtCoderを始める" [ref=e95]
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - heading "AtCoderを始める" [level=3] [ref=e99]
+                  - paragraph [ref=e100]: 競技プログラミングに興味を持ち、AtCoderで継続的に問題を解き始めた最初のタイミングです。
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - img [ref=e103]
+                    - generic [ref=e105]: 2024-08-03 - 2024-12-14
+                  - generic [ref=e106]:
+                    - img [ref=e107]
+                    - generic [ref=e112]: 1人
+                - generic [ref=e114]:
+                  - generic [ref=e115]: AtCoder
+                  - generic [ref=e116]: Algorithms
+                  - generic [ref=e117]: 競プロ
+          - article [ref=e118]:
+            - generic [ref=e119]:
+              - img "入茶" [ref=e121]
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - heading "入茶" [level=3] [ref=e125]
+                  - paragraph [ref=e126]: 継続的な演習を通して、AtCoderで茶色レートに到達した節目です。基礎的な実装力が安定してきた時期でした。
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - img [ref=e129]
+                    - generic [ref=e131]: 2024-12-14 - 2025-04-19
+                  - generic [ref=e132]:
+                    - img [ref=e133]
+                    - generic [ref=e138]: 1人
+                - generic [ref=e140]:
+                  - generic [ref=e141]: AtCoder
+                  - generic [ref=e142]: Algorithms
+                  - generic [ref=e143]: 競プロ
+          - article [ref=e144]:
+            - generic [ref=e145]:
+              - img "入緑" [ref=e147]
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - heading "入緑" [level=3] [ref=e151]
+                  - paragraph [ref=e152]: 解ける問題の幅が広がり、考察と実装の両方で安定感が出てきた段階として、AtCoder緑レートに到達しました。
+                - generic [ref=e153]:
+                  - generic [ref=e154]:
+                    - img [ref=e155]
+                    - generic [ref=e157]: 2025-04-19 - 2026-01-17
+                  - generic [ref=e158]:
+                    - img [ref=e159]
+                    - generic [ref=e164]: 1人
+                - generic [ref=e166]:
+                  - generic [ref=e167]: AtCoder
+                  - generic [ref=e168]: Algorithms
+                  - generic [ref=e169]: 競プロ
+          - article [ref=e170]:
+            - generic [ref=e171]:
+              - img "入水" [ref=e173]
+              - generic [ref=e175]:
+                - generic [ref=e176]:
+                  - heading "入水" [level=3] [ref=e177]
+                  - paragraph [ref=e178]: より高い難度の問題にも対応できるようになり、AtCoder水色到達まで成長しました。
+                - generic [ref=e179]:
+                  - generic [ref=e180]:
+                    - img [ref=e181]
+                    - generic [ref=e183]: 2026-01-17 - 現在
+                  - generic [ref=e184]:
+                    - img [ref=e185]
+                    - generic [ref=e190]: 1人
+                - generic [ref=e192]:
+                  - generic [ref=e193]: AtCoder
+                  - generic [ref=e194]: Algorithms
+                  - generic [ref=e195]: 競プロ
+          - article [ref=e196]:
+            - generic [ref=e197]:
+              - img "競プロ説明会の開催" [ref=e199]
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - heading "競プロ説明会の開催" [level=3] [ref=e203]
+                  - paragraph [ref=e204]: 大学内で競技プログラミングに興味を持つ人を増やすため、概要や楽しさを伝える説明会を企画・開催しました。
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - img [ref=e207]
+                    - generic [ref=e209]: 2026-04-04 - 2026-04-14
+                  - generic [ref=e210]:
+                    - img [ref=e211]
+                    - generic [ref=e216]: 2人
+                - generic [ref=e218]:
+                  - generic [ref=e219]: Community
+                  - generic [ref=e220]: Presentation
+                  - generic [ref=e221]: 競プロ
+          - article [ref=e222]:
+            - generic [ref=e223]:
+              - img "ICPC2025国内予選" [ref=e225]
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - heading "ICPC2025国内予選" [level=3] [ref=e229]
+                  - paragraph [ref=e230]: 200位というかなり悔しい結果になりました。次回のICPCではこの経験を活かして、より良い結果で挽回できるように頑張りたいです。
+                - generic [ref=e231]:
+                  - generic [ref=e232]:
+                    - img [ref=e233]
+                    - generic [ref=e235]: 2025-06-18 - 2025-07-04
+                  - generic [ref=e236]:
+                    - img [ref=e237]
+                    - generic [ref=e242]: 3人 + コーチ1人
+                - generic [ref=e244]:
+                  - generic [ref=e245]: ICPC-2025
+                  - generic [ref=e246]: 競プロ
