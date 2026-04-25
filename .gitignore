@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+.playwright-mcp
+*-images-check.png
+*tags.png
+sidebar-collapsed-*.png
 
 # Editor directories and files
 .vscode/*
