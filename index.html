@@ -5,6 +5,27 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <script>
+      ;(function () {
+        const redirect = window.location.search
+
+        if (!redirect.startsWith("?/")) {
+          return
+        }
+
+        const decoded = redirect
+          .slice(2)
+          .replace(/~and~/g, "&")
+
+        const [pathWithQuery, hash = ""] = decoded.split("#")
+        const [path, query = ""] = pathWithQuery.split("&")
+        const targetPath = `/${path}`
+        const targetSearch = query ? `?${query}` : ""
+        const targetHash = hash ? `#${hash}` : ""
+
+        window.history.replaceState(null, "", `${targetPath}${targetSearch}${targetHash}`)
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

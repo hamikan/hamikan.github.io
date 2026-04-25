@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <script>
+      const pathSegmentsToKeep = 0
+
+      const { protocol, hostname, port, pathname, search, hash } = window.location
+      const path = pathname
+        .split("/")
+        .slice(1)
+        .map((segment) => encodeURIComponent(segment))
+        .join("/")
+
+      const redirectUrl =
+        `${protocol}//${hostname}${port ? `:${port}` : ""}/?/${path}` +
+        `${search ? `&${search.slice(1).replace(/&/g, "~and~")}` : ""}${hash}`
+
+      window.location.replace(redirectUrl)
+    </script>
+  </head>
+  <body></body>
+</html>
