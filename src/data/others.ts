@@ -5,6 +5,7 @@ import nyuutyaImage from "@/assets/images/others/nyuutya.png"
 import nyuuryokuImage from "@/assets/images/others/nyuuryoku.png"
 import nyuusuiImage from "@/assets/images/others/nyuusui.png"
 import kdixLabImage from "@/assets/images/others/KDIXLab.png"
+import firstAHCImage from "@/assets/images/others/first-AHC.png"
 import {
   TAG_ALGORITHMS,
   TAG_ATCODER,
@@ -15,6 +16,7 @@ import {
   TAG_JAVA,
   TAG_PRESENTATION,
   TAG_PYTHON,
+  TAG_HEURISTICS,
 } from "./tags"
 import type { PortfolioItem } from "./types"
 
@@ -31,7 +33,7 @@ export const others: PortfolioItem[] = [
   },
   {
     image: atCoderIconImage,
-    title: "AtCoderを始める",
+    title: "ABC初参加（灰色）",
     summary: "競技プログラミングに興味を持ち、AtCoderで継続的に問題を解き始めた最初のタイミングです。",
     startDate: "2024-08-03",
     endDate: "2024-12-14",
@@ -83,5 +85,14 @@ export const others: PortfolioItem[] = [
     endDate: "2025-07-04",
     teamSize: "3人 + コーチ1人",
     techs: [TAG_ICPC_2025, TAG_COMPETITIVE_PROGRAMMING, TAG_COMMUNITY],
+  },
+  {
+    image: firstAHCImage,
+    title: "AHC初参加（灰色）",
+    summary: "AHCに興味を持ち参加してみました。初参加で青パフォが取れて嬉しかったのを覚えています。",
+    startDate: "2026-04-26",
+    endDate: "現在",
+    teamSize: "1人",
+    techs: [TAG_ATCODER, TAG_HEURISTICS, TAG_COMPETITIVE_PROGRAMMING],
   },
 ]
