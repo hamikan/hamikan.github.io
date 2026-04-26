@@ -157,3 +157,8 @@ export const TAG_GAME: Tag = {
   label: "Game",
   className: "bg-[#F59E0B]/12 text-[#B45309]",
 }
+
+export const TAG_HEURISTICS: Tag = {
+  label: "Heuristics",
+  className: "bg-[#10B981]/12 text-[#047857]",
+}
