@@ -5,7 +5,7 @@ import nyuutyaImage from "@/assets/images/others/nyuutya.png"
 import nyuuryokuImage from "@/assets/images/others/nyuuryoku.png"
 import nyuusuiImage from "@/assets/images/others/nyuusui.png"
 import kdixLabImage from "@/assets/images/others/KDIXLab.png"
-import firstAHCImage from "@/assets/images/others/first-AHC.png"
+import firstAHCImage from "@/assets/images/others/First-AHC.png"
 import {
   TAG_ALGORITHMS,
   TAG_ATCODER,
