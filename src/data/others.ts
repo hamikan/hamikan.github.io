@@ -39,7 +39,7 @@ export const others: PortfolioItem[] = [
   {
     image: kyoupuroSetumeikaiImage,
     title: "競プロ説明会の開催",
-    summary: "大学内で競技プログラミングに興味を持つ人を増やすため、概要や楽しさを伝える説明会を企画・開催しました。",
+    summary: "写真のマイクを持って話しているのが私です。大学内で競技プログラミングに興味を持つ人を増やすため、概要や楽しさを伝える説明会を企画・開催しました。",
     startDate: "2026-04-04",
     endDate: "2026-04-14",
     teamSize: "2人",
