@@ -7,7 +7,9 @@ import Algo_nyuusuiImage from "@/assets/images/others/algorithms/nyuusui.png"
 import kdixLabImage from "@/assets/images/others/KDIXLab/KDIXLab.png"
 import Heu_firstImage from "@/assets/images/others/heuristics/First-AHC.png"
 import Heu_nyuutyaImage from "@/assets/images/others/heuristics/nyuutya.png"
+import EXPO2026Image from "@/assets/images/others/events/EXPO2026.png"
 import STECHConnectKANSAI2025Image from "@/assets/images/others/events/STECHConnectKANSAI2025.png"
+import geeksaiIconImage from "@/assets/images/others/events/geeksai2024autumn.png"
 import {
   TAG_ALGORITHMS,
   TAG_ATCODER,
@@ -35,6 +37,15 @@ export const others: PortfolioItem[] = [
     techs: [TAG_CPP, TAG_PYTHON, TAG_JAVA, TAG_COMMUNITY, TAG_COMPETITIVE_PROGRAMMING],
   },
   {
+    image: kyoupuroSetumeikaiImage,
+    title: "競プロ説明会の開催",
+    summary: "大学内で競技プログラミングに興味を持つ人を増やすため、概要や楽しさを伝える説明会を企画・開催しました。",
+    startDate: "2026-04-04",
+    endDate: "2026-04-14",
+    teamSize: "2人",
+    techs: [TAG_COMMUNITY, TAG_PRESENTATION, TAG_COMPETITIVE_PROGRAMMING],
+  },
+  {
     image: STECHConnectKANSAI2025Image,
     title: "STECH Connect KANSAI 2025",
     summary: "大阪で開催された、学生エンジニア同士や企業との交流イベントに参加しました。交流会やコードの懺悔会を通して、関西の学生エンジニアとつながる機会になりました。",
@@ -43,6 +54,28 @@ export const others: PortfolioItem[] = [
     teamSize: "参加者27人",
     externalUrl: "https://careerselect-studygroup.connpass.com/event/355196/",
     externalLabel: "connpass",
+    techs: [TAG_COMMUNITY, TAG_EVENT],
+  },
+  {
+    image: geeksaiIconImage,
+    title: "技育祭2025【秋】",
+    summary: "学生向けテックカンファレンスに参加し、エンジニアのキャリアや技術トレンドに触れました。気になるセッションを通して、今後の学習や開発の方向性を考える機会になりました。",
+    startDate: "2025-10-11",
+    endDate: "2025-10-12",
+    teamSize: "オンライン参加",
+    externalUrl: "https://geek.supporterz.jp/geeksai/2025autumn",
+    externalLabel: "公式ページ",
+    techs: [TAG_COMMUNITY, TAG_EVENT],
+  },
+  {
+    image: EXPO2026Image,
+    title: "エンジニアサマーインターンEXPO",
+    summary: "28卒エンジニア向けのオンライン合同説明会に参加しました。サマーインターンに向けて、企業ごとの特徴やエンジニア職の働き方を知る機会になりました。",
+    startDate: "2026-05-16",
+    endDate: "2026-05-16",
+    teamSize: "オンライン参加",
+    externalUrl: "https://lp.supporterz.jp/summerexpo/2026/",
+    externalLabel: "イベントページ",
     techs: [TAG_COMMUNITY, TAG_EVENT],
   },
   {
@@ -80,15 +113,6 @@ export const others: PortfolioItem[] = [
     endDate: "現在",
     teamSize: "1人",
     techs: [TAG_ATCODER, TAG_ALGORITHMS, TAG_COMPETITIVE_PROGRAMMING],
-  },
-  {
-    image: kyoupuroSetumeikaiImage,
-    title: "競プロ説明会の開催",
-    summary: "大学内で競技プログラミングに興味を持つ人を増やすため、概要や楽しさを伝える説明会を企画・開催しました。",
-    startDate: "2026-04-04",
-    endDate: "2026-04-14",
-    teamSize: "2人",
-    techs: [TAG_COMMUNITY, TAG_PRESENTATION, TAG_COMPETITIVE_PROGRAMMING],
   },
   {
     image: icpc2025Image,
