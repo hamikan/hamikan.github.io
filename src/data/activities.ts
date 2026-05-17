@@ -31,12 +31,8 @@ export const focusAreas: FocusArea[] = [
         url: "https://atcoder.jp/users/Mikankyan",
       },
       {
-        label: "AtCoder Problems",
-        url: "https://kenkoooo.com/atcoder/#/table/Mikankyan",
-      },
-      {
         label: "学内コンテスト",
-        url: "https://github.com/hamikan/Kindai_contest",
+        url: "https://kindaiprogrammingcontest.vercel.app",
       },
     ],
     tags: [TAG_ATCODER, TAG_COMPETITIVE_PROGRAMMING, TAG_ICPC, TAG_COMMUNITY, TAG_CPP],

@@ -1,6 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import Layout from '@/app/layout'
-import { Home } from './pages/Home'
 import { AboutMe } from './pages/AboutMe'
 import { History } from './pages/History'
 import { Projects } from './pages/Projects'
@@ -11,8 +10,8 @@ export function App() {
     <Router>
       <Layout>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/about-me" element={<Navigate to="/" replace />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/history" element={<History />} />
           <Route path="/others" element={<Others />} />

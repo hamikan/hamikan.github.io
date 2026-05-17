@@ -2,12 +2,15 @@ import type { Tag } from "./tags"
 
 export interface PortfolioItem {
   image?: string
+  video?: string
   title: string
   summary: string
   startDate: string
   endDate: string
   teamSize: string
   githubUrl?: string
+  externalUrl?: string
+  externalLabel?: string
   techs: Tag[]
 }
 
