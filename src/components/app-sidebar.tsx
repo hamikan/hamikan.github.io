@@ -1,4 +1,4 @@
-import { Home, IdCard, Code, Lightbulb, History } from "lucide-react"
+import { IdCard, Code, Lightbulb, History } from "lucide-react"
 import { Link, useLocation } from "react-router-dom"
 
 import {
@@ -16,13 +16,8 @@ import {
 // Menu items.
 const items = [
   {
-    title: "Home",
-    url: "/",
-    icon: Home,
-  },
-  {
     title: "About me",
-    url: "/about-me",
+    url: "/",
     icon: IdCard,
   },
   {

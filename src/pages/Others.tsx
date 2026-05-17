@@ -17,11 +17,15 @@ export function Others() {
           <Card
             key={item.title}
             image={item.image}
+            video={item.video}
             title={item.title}
             summary={item.summary}
             startDate={item.startDate}
             endDate={item.endDate}
             teamSize={item.teamSize}
+            githubUrl={item.githubUrl}
+            externalUrl={item.externalUrl}
+            externalLabel={item.externalLabel}
             techs={item.techs}
           />
         ))}

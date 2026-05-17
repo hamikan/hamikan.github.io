@@ -1,9 +1,12 @@
 import atCoderProgressImage from "@/assets/images/projects/AtCoder-Progress.png"
+import twoDPlatformerVideo from "@/assets/images/projects/2DPlatformer.mp4"
 import kindaiContestImage from "@/assets/images/projects/Kindai-Contest.png"
 import portfolioImage from "@/assets/images/projects/portfolio.png"
 import {
   TAG_DOCKER,
   TAG_DOMJUDGE,
+  TAG_GAME,
+  TAG_UNITY,
   TAG_GO,
   TAG_NEXT_JS,
   TAG_PHP,
@@ -43,6 +46,15 @@ export const projects: PortfolioItem[] = [
     endDate: "現在",
     teamSize: "アルバイト",
     techs: [TAG_TYPESCRIPT, TAG_REACT, TAG_GO, TAG_PHP, TAG_DOCKER],
+  },
+  {
+    video: twoDPlatformerVideo,
+    title: "2D Platformer",
+    summary: "一回生の頃にYouTubeとドキュメントを参考にしながら、独学で作成しました。プログラミングって楽しいと気づいたきっかけの作品です。",
+    startDate: "2024-07-04",
+    endDate: "2024-07-18",
+    teamSize: "2人",
+    techs: [TAG_GAME, TAG_UNITY],
   },
   {
     image: kindaiContestImage,

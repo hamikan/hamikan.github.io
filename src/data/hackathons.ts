@@ -1,7 +1,7 @@
-import akiyaGameImage from "@/assets/images/hackathons/akiya-game.jpg"
-import giikuCampImage from "@/assets/images/hackathons/giiku-camp.png"
-import kindaiCampusNaviImage from "@/assets/images/hackathons/kindai-campus-navi.png"
-import toryumonHackImage from "@/assets/images/hackathons/toryumon-hack-2025.png"
+import akiyaGameImage from "@/assets/images/projects/hackathons/akiya-game.jpg"
+import giikuCampImage from "@/assets/images/projects/hackathons/giiku-camp.png"
+import kindaiCampusNaviImage from "@/assets/images/projects/hackathons/kindai-campus-navi.png"
+import toryumonHackImage from "@/assets/images/projects/hackathons/toryumon-hack-2025.png"
 import {
   TAG_AR_KIT,
   TAG_BLENDER,

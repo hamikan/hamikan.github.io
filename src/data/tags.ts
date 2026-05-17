@@ -48,6 +48,11 @@ export const TAG_DOMJUDGE: Tag = {
   className: "bg-[#1F4B99]/12 text-[#1E3A8A]",
 }
 
+export const TAG_EVENT: Tag = {
+  label: "Event",
+  className: "bg-[#0F766E]/12 text-[#0F766E]",
+}
+
 export const TAG_GENERATIVE_AI: Tag = {
   label: "Generative AI",
   className: "bg-[#7C3AED]/12 text-[#6D28D9]",
