@@ -59,8 +59,6 @@ export function AboutMe() {
               個人開発 AtCoder Progress を完成させる
               <div/>
               就職に向けてインターンに参加したり、企業研究を進める
-              <div/>
-              機械学習について勉強する
             </p>
           </section>
 
