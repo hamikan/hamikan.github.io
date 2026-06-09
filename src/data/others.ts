@@ -8,6 +8,7 @@ import kdixLabImage from "@/assets/images/others/KDIXLab/KDIXLab.png"
 import Heu_firstImage from "@/assets/images/others/heuristics/First-AHC.png"
 import Heu_nyuutyaImage from "@/assets/images/others/heuristics/nyuutya.png"
 import EXPO2026Image from "@/assets/images/others/events/EXPO2026.png"
+import engineer1on1InterviewPresentationVideo from "@/assets/images/others/events/Engineer_1on1_Interview_Presentation.mp4"
 import STECHConnectKANSAI2025Image from "@/assets/images/others/events/STECHConnectKANSAI2025.png"
 import geeksaiIconImage from "@/assets/images/others/events/geeksai2024autumn.png"
 import {
@@ -54,7 +55,7 @@ export const others: PortfolioItem[] = [
     teamSize: "参加者27人",
     externalUrl: "https://careerselect-studygroup.connpass.com/event/355196/",
     externalLabel: "connpass",
-    techs: [TAG_COMMUNITY, TAG_EVENT],
+    techs: [TAG_EVENT],
   },
   {
     image: geeksaiIconImage,
@@ -65,7 +66,7 @@ export const others: PortfolioItem[] = [
     teamSize: "オンライン参加",
     externalUrl: "https://geek.supporterz.jp/geeksai/2025autumn",
     externalLabel: "公式ページ",
-    techs: [TAG_COMMUNITY, TAG_EVENT],
+    techs: [TAG_EVENT],
   },
   {
     image: EXPO2026Image,
@@ -76,7 +77,18 @@ export const others: PortfolioItem[] = [
     teamSize: "オンライン参加",
     externalUrl: "https://lp.supporterz.jp/summerexpo/2026/",
     externalLabel: "イベントページ",
-    techs: [TAG_COMMUNITY, TAG_EVENT],
+    techs: [TAG_EVENT],
+  },
+  {
+    video: engineer1on1InterviewPresentationVideo,
+    title: "エンジニア1on1面談プレゼンテーション",
+    summary: "インターンに向けて、エンジニアとの1on1面談をしたイベントです。参加された10社すべてと面談を組んで頂けたので、濃密で有意義な1日になりました。",
+    startDate: "2026-05-24",
+    endDate: "2026-05-24",
+    teamSize: "オンライン参加",
+    externalUrl: "https://talent.supporterz.jp/events/4e7f38a3-2958-4c1c-87a9-d669d0381959/",
+    externalLabel: "イベントページ",
+    techs: [TAG_EVENT],
   },
   {
     image: Algo_firstImage,

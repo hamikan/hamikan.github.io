@@ -55,4 +55,11 @@ export const historyItems: HistoryItem[] = [
 
     return a.sortIndex - b.sortIndex
   })
-  .map(({ sortValue: _sortValue, sortIndex: _sortIndex, ...item }) => item)
+  .map(({ date, title, category, tags, pagePath, pageLabel }) => ({
+    date,
+    title,
+    category,
+    tags,
+    pagePath,
+    pageLabel,
+  }))
