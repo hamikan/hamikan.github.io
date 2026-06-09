@@ -6,6 +6,7 @@ import Algo_nyuuryokuImage from "@/assets/images/others/algorithms/nyuuryoku.png
 import Algo_nyuusuiImage from "@/assets/images/others/algorithms/nyuusui.png"
 import kdixLabImage from "@/assets/images/others/KDIXLab/KDIXLab.png"
 import Heu_firstImage from "@/assets/images/others/heuristics/First-AHC.png"
+import Heu_nyuuryokuImage from "@/assets/images/others/heuristics/nyuuryoku.png"
 import Heu_nyuutyaImage from "@/assets/images/others/heuristics/nyuutya.png"
 import EXPO2026Image from "@/assets/images/others/events/EXPO2026.png"
 import engineer1on1InterviewPresentationVideo from "@/assets/images/others/events/Engineer_1on1_Interview_Presentation.mp4"
@@ -150,6 +151,15 @@ export const others: PortfolioItem[] = [
     title: "AHC入茶",
     summary: "AHCで茶色レートに到達しました。ヒューリスティックの考察や改善サイクルにも少しずつ慣れてきた節目です。",
     startDate: "2026-05-17",
+    endDate: "2026-06-09",
+    teamSize: "1人",
+    techs: [TAG_ATCODER, TAG_HEURISTICS, TAG_COMPETITIVE_PROGRAMMING],
+  },
+  {
+    image: Heu_nyuuryokuImage,
+    title: "AHC入緑",
+    summary: "AHCで緑レートに到達しました。AHC特有の手法も少しずつ理解できて、楽しさが増してきた段階でした。",
+    startDate: "2026-06-09",
     endDate: "現在",
     teamSize: "1人",
     techs: [TAG_ATCODER, TAG_HEURISTICS, TAG_COMPETITIVE_PROGRAMMING],
