@@ -53,6 +53,11 @@ export const TAG_EVENT: Tag = {
   className: "bg-[#0F766E]/12 text-[#0F766E]",
 }
 
+export const TAG_FLASK: Tag = {
+  label: "Flask",
+  className: "bg-black/8 text-slate-900",
+}
+
 export const TAG_GENERATIVE_AI: Tag = {
   label: "Generative AI",
   className: "bg-[#7C3AED]/12 text-[#6D28D9]",
@@ -151,6 +156,11 @@ export const TAG_TYPESCRIPT: Tag = {
 export const TAG_UNITY: Tag = {
   label: "Unity",
   className: "bg-black/8 text-slate-900",
+}
+
+export const TAG_VITE: Tag = {
+  label: "Vite",
+  className: "bg-[#646CFF]/12 text-[#4F46E5]",
 }
 
 export const TAG_WEB: Tag = {

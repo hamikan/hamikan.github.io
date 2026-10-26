@@ -28,7 +28,7 @@ export function AboutMe() {
           <p className="mt-6 text-lg leading-8 text-slate-600">
             近畿大学情報学部に所属しています。
             <div/>
-            競技プログラミングで培った基礎力や論理的思考力を基に、アルバイト、ハッカソン、個人開発に挑戦しています。
+            競技プログラミングで培った基礎力や論理的思考力を基に、アルバイト、ハッカソン、インターン、個人開発に挑戦しています。
           </p>
 
           <div className="mt-8 rounded-lg border border-slate-200 bg-white p-6 shadow-sm">

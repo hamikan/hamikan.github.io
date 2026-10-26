@@ -11,8 +11,8 @@ export function Projects() {
         <p className="text-sm font-bold uppercase tracking-[0.24em] text-teal-700">Selected Work</p>
         <h1 className="mt-4 text-4xl font-black text-slate-950 md:text-6xl">Projects</h1>
         <p className="mt-5 text-lg leading-8 text-slate-600">
-          個人制作やチーム開発の制作物をまとめたページです。何を作ったかだけでなく、
-          どんな技術で形にしたかが伝わるように整理しています。
+          個人制作やチーム開発の制作物と、アルバイト・インターンでの開発経験をまとめています。
+          それぞれの取り組みと使用技術を紹介しています。
         </p>
       </div>
 
@@ -20,17 +20,7 @@ export function Projects() {
         {projectItems.map((item, index) => (
           <Card
             key={`${item.title}-${index}`}
-            image={item.image}
-            video={item.video}
-            title={item.title}
-            summary={item.summary}
-            startDate={item.startDate}
-            endDate={item.endDate}
-            teamSize={item.teamSize}
-            githubUrl={item.githubUrl}
-            externalUrl={item.externalUrl}
-            externalLabel={item.externalLabel}
-            techs={item.techs}
+            {...item}
           />
         ))}
       </div>

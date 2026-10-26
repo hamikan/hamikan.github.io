@@ -7,11 +7,15 @@ export interface PortfolioItem {
   summary: string
   startDate: string
   endDate: string
-  teamSize: string
+  teamSize?: string
   githubUrl?: string
   externalUrl?: string
   externalLabel?: string
   techs: Tag[]
+  details?: readonly {
+    title: string
+    items: readonly string[]
+  }[]
 }
 
 export interface FocusArea {
