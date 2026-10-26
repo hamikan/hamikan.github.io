@@ -1,20 +1,6 @@
 import { CalendarDays, ExternalLink, Github, Sparkles, Users } from "lucide-react"
 import { TagBadge } from "@/components/TagBadge"
-import type { Tag } from "@/data/tags"
-
-interface CardProps {
-  image?: string
-  video?: string
-  title: string
-  summary: string
-  startDate: string
-  endDate: string
-  teamSize: string
-  githubUrl?: string
-  externalUrl?: string
-  externalLabel?: string
-  techs: Tag[]
-}
+import type { PortfolioItem } from "@/data/types"
 
 export function Card({
   image,
@@ -28,7 +14,8 @@ export function Card({
   externalUrl,
   externalLabel = "Link",
   techs,
-}: CardProps) {
+  details,
+}: PortfolioItem) {
   const linkUrl = githubUrl ?? externalUrl
   const linkLabel = githubUrl ? "GitHub" : externalLabel
 
@@ -72,11 +59,24 @@ export function Card({
                 {startDate} - {endDate}
               </span>
             </div>
-            <div className="flex items-center gap-2">
-              <Users className="h-4 w-4 text-teal-700" aria-hidden="true" />
-              <span>{teamSize}</span>
-            </div>
+            {teamSize ? (
+              <div className="flex items-center gap-2">
+                <Users className="h-4 w-4 text-teal-700" aria-hidden="true" />
+                <span>{teamSize}</span>
+              </div>
+            ) : null}
           </div>
+
+          {details?.map((detail) => (
+            <div key={detail.title} className="space-y-2">
+              <h4 className="text-sm font-bold text-slate-950">{detail.title}</h4>
+              <ul className="list-disc space-y-2 pl-5 text-sm leading-6 text-slate-600 marker:text-teal-600">
+                {detail.items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
 
           <div className="mt-auto flex flex-col gap-5">
             <div className="flex flex-wrap gap-2">
